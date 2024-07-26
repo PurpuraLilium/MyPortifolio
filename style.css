@@ -58,6 +58,14 @@ header #menu a {
     text-decoration: none;
 }
 
+a:hover{
+    transform: scale(1.05);
+
+    color: #a362c6;
+
+    cursor: pointer;
+}
+
 .banner img{
     width: 100%;
 }
@@ -87,22 +95,16 @@ p{
 }
 
 #Tabela{
-    width: 55%;
+    width: 70%;
 
     margin: 0 auto;
 
     padding-bottom: 25px;
 
-    background-color: #f5f5f5;
-
     display: flex;
 
     justify-content: space-around;
 
-}
-
-#Tabela h2{
-    color: black;
 }
 
 .coluna{
@@ -126,8 +128,6 @@ p{
 
     padding-bottom: 25px;
 
-    background-color: #f5f5f5;
-
 }
 
 .Skill{
@@ -142,12 +142,15 @@ p{
     justify-content: space-between;
 }
 
+
 .txt{
     width: 70%;
 
     padding: 10px;
+}
 
-    background-color: black;
+.txt p{
+    margin: 5px;
 }
 
 footer{
@@ -157,17 +160,19 @@ footer{
     background-color: #f5f5f5;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
 }
 
-.ft{
-    width: 15%;
+.link{
+    width: 11%;
 
     margin: 0 auto;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer img {
